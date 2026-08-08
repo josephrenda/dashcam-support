@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DashCam Guardian Support</title>
+    <style>
+      :root {
+        --bg: #f4f7fb;
+        --panel: #ffffff;
+        --text: #1f2937;
+        --muted: #4b5563;
+        --brand: #0f6fff;
+        --border: #dbe4f0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: radial-gradient(circle at top, #e9f2ff 0%, var(--bg) 45%, #eef3f8 100%);
+        color: var(--text);
+        line-height: 1.5;
+      }
+
+      .wrap {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 32px 18px 48px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 22px;
+        box-shadow: 0 8px 30px rgba(15, 40, 80, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 30px;
+      }
+
+      .sub {
+        margin: 0 0 18px;
+        color: var(--muted);
+      }
+
+      h2 {
+        margin: 22px 0 10px;
+        font-size: 20px;
+      }
+
+      ul {
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--brand);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .pill {
+        display: inline-block;
+        border: 1px solid #bfdbfe;
+        background: #eff6ff;
+        color: #1d4ed8;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 6px 10px;
+        margin-bottom: 14px;
+      }
+
+      .note {
+        margin-top: 20px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 25px;
+        }
+
+        .card {
+          padding: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <span class="pill">Official Support</span>
+        <h1>DashCam Guardian Support</h1>
+        <p class="sub">
+          Help for installation, recording, incident reporting, and clip upload workflows.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:support@dashcamguardian.app">support@dashcamguardian.app</a>
+        </p>
+
+        <h2>Quick Troubleshooting</h2>
+        <ul>
+          <li>Enable Camera, Microphone, and Location permissions in iOS Settings.</li>
+          <li>Keep enough free storage for saved clips and temporary recordings.</li>
+          <li>If a clip is missing, reopen the app and check the clip counter on the camera view.</li>
+          <li>For YouTube sharing, upload as Unlisted and paste the URL in the incident report.</li>
+        </ul>
+
+        <h2>Response Time</h2>
+        <p>We typically respond within 1 to 2 business days.</p>
+
+        <h2>More Resources</h2>
+        <p>
+          Privacy Policy: <a href="https://github.com/josephrenda/DashCam-App">Repository Home</a>
+        </p>
+
+        <p class="note">
+          Last updated: 2026-08-07
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
